@@ -1,0 +1,23 @@
+Node.js Basic 
+
+
+//Introduction to Node.js
+Node.js -- It allow JS to be used on server side
+not programming language,technology, framework, library, software 
+JS Runtime environment
+
+
+//Installing Node.js and npm.
+npm is a package store, we get code created by other developers ,use in your PC  
+npm init -> create package.json
+
+//file system operations ---> index.js file mai hai
+
+//understanding HTTP modules ---> it is protocal that is used to send and receive data 
+
+
+
+
+
+
+

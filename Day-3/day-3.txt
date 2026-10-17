@@ -1,0 +1,17 @@
+//installing & uninstalling package
+npm i package_name            eg; npm i express
+npm uninstall package_name    eg;  npm uninstall express
+
+//node_module
+all dependencies present , jo hum apne development ke liye package install kiye hai
+
+
+//devdependencies  --> aisi dependencies jo sirf development me use ho, ye package jab production me jayega to ye package(dependencies) remove ho jayega
+ eg; nodemon
+
+
+//added start script to run the server  ---> it is helful when we want to execute to server simultaneously
+"scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }

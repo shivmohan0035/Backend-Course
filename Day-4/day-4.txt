@@ -1,0 +1,25 @@
+//Express.js ---> npm package
+It is light weight framework used for creating REST APIs, middleware and routing
+It manage everything from receiving the request and giving the response
+
+step1-> npm i express
+
+step2->
+ const express=require("express")
+ const app = express()
+ // creating route
+ app.get("/",function(req,res){
+  res.send("Welcome");
+ })
+ app.get("/profile",function(req,res){
+  res.send("Welcome to my profile page");
+ })
+
+// start server on port no 3000
+app.listen(3000);
+
+step3->
+node index.js   ----> run server
+or
+npm i nodemon -g  ---> install
+npx nodemon index,js    -----> server run  automatically ,show changes when developer update code

@@ -1,0 +1,22 @@
+### Data Storage: --> store info of user
+(1)  File 
+---> file only store data in text formate, not store image, vedio,music, large text 
+---> less efficient
+(2)Database -->efficient data store
+
+
+## Type of database: ---> 
+SQL --> data store in table formate  eg:MySQL,Oracle
+NoSQL -->data store in object formate (key value pair)
+eg: mongoDB
+
+
+mongoDB :
+-------------------------------------------
+Database --> Collections --> Document
+-------------------------------------------
+install  -> npm i mongoose
+
+
+
+
